@@ -783,9 +783,9 @@ body {
   padding: 100px 60px;
   background-image: url(/src/bg-knife.webp);
   background-repeat: no-repeat;
-  width: 100vw;             /* тягнемо на всю ширину */
+  width: 100vw;             
   min-height: 100vh; 
-  background-size: cover;    /* щоб картинка тягнулась */
+  background-size: cover;    
 }
 
 .laurels-left {
@@ -1006,9 +1006,9 @@ body {
 }
 
 .logo-background {
-  position: absolute;
-  transform: translate(-50%, -50%);
-  z-index: 2;
+position:absolute;
+top: 6650px;
+  
 }
 
 .logo-background img {
@@ -1019,22 +1019,26 @@ body {
 
 .svg-background {
   position: absolute;
-  transform: translate(-50%, -50%);
+  bottom: -6300px;
+  left: 850px;
   z-index: 3;
   cursor: pointer;
   transition: transform 0.3s ease;
 }
 
 .svg-background:hover {
-  transform: translate(-50%, -50%) scale(1.1);
-}
-
-.svg-background svg circle {
-  transition: stroke 0.3s ease;
+  transform: scale(1.2);
 }
 
 .restorun {
-  background-image: url(/src/restorun.webp);
-  
+  width: 100vw;             
+  min-height: 100vh; 
+  background-size: cover; 
 }
+
+
+
+
+
+
 
