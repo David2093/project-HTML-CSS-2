@@ -392,12 +392,12 @@ body {
 
 .spoons {
   position: relative;
-  left: 950px;
+  left: 955px;
 }
 
 .customers {
   position: relative;
-  left: 860px;
+  left: 850px;
   color: #DCCA87;
 }
 
@@ -433,7 +433,8 @@ body {
   position: relative;
   left: 560px;
   bottom: 215px;
-  color:#F5EFDB
+  color:#F5EFDB;
+  list-style: none;
 }
 
 .colum {
@@ -501,8 +502,9 @@ body {
   letter-spacing: 4%;
   position: relative;
   left: 560px;
-  bottom: 850px;
-  color:#F5EFDB
+  bottom: 875px;
+  color:#F5EFDB;
+  list-style: none;
 }
 
 .jane {
@@ -539,7 +541,8 @@ body {
   position: relative;
   left: 1275px;
   bottom: 710px;
-  color:#F5EFDB
+  color:#F5EFDB;
+  list-style: none;
 }
 
 .guillemets {
@@ -563,6 +566,7 @@ body {
   position: relative;
   bottom: 1335px;
   left: 1250px;
+  list-style: none;
 }
 
 .name-brooklyn {
@@ -573,6 +577,7 @@ body {
   left: 1275px;
   bottom: 1350px;
   color: #DCCA87;
+  list-style: none;
 }
 
 .sommelier-brooklyn {
@@ -582,13 +587,15 @@ body {
   position: relative;
   left: 1275px;
   bottom: 1350px;
-  color:#F5EFDB
+  color:#F5EFDB;
+  list-style: none;
 }
 
 .guillemet {
   position: relative;
   left: 1150px;
   bottom: 1120px;
+  list-style: none;
 }
 
 .logo-background {
@@ -884,20 +891,26 @@ body {
 
 .persons {
   list-style: none;
-  margin: 0;
-  padding: 0;
+  position: relative;
+  right: 500px;
 }
 
 .persons-robert {
   position: absolute;
-  right:1045px;
-  top: 950px;
+  right:1527px;
+  top: 875px;
 }
 
 .persons-jane {
   position: absolute;
-  top: 450px;
-  right: 1000px;
+  top: 495px;
+  right: 1500px;
+}
+
+.persons-brooklyn {
+  position: absolute;
+  top: 1350px;
+  right: 400px;
 }
 
 .blog-section {
@@ -1035,6 +1048,8 @@ top: 6650px;
   min-height: 100vh; 
   background-size: cover; 
 }
+
+
 
 
 
