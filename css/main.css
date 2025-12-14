@@ -1054,6 +1054,166 @@ top: 6650px;
   right: 200px;
 }
 
+header{
+padding:32px 64px 64px;
+min-height:100vh;
+}
+
+
+header > div{
+max-width:1400px;
+margin:0 auto;
+}
+
+
+
+header ul{
+list-style:none;
+display:flex;
+align-items:center;
+justify-content:space-between;
+margin-bottom:80px;
+}
+
+
+header ul li{
+font-size:14px;
+color:#ddd;
+cursor:pointer;
+}
+
+
+header ul li:first-child{
+font-family:'Cormorant Garamond',serif;
+font-size:28px;
+letter-spacing:2px;
+color:var(--white);
+}
+
+.section-header{
+position:relative;
+display:grid;
+grid-template-columns:1.1fr 1fr;
+gap:64px;
+align-items:center;
+}
+
+
+/* LEFT */
+.section-header p:first-of-type{
+color:var(--gold);
+letter-spacing:2px;
+text-transform:capitalize;
+}
+
+
+.section-header h1{
+margin:24px 0;
+font-family:'Cormorant Garamond',serif;
+font-size:72px;
+line-height:1.05;
+color:var(--gold);
+}
+
+
+.section-header p:nth-of-type(2){
+color:var(--muted);
+max-width:520px;
+line-height:1.7;
+}
+
+
+.section-header button{
+margin-top:40px;
+width:420px;
+height:60px;
+background:var(--gold);
+border:none;
+color:#000;
+font-size:16px;
+letter-spacing:1px;
+cursor:pointer;
+}
+
+
+
+
+
+.section-header > img[alt="eggs"]{
+position:relative;
+width:100%;
+max-width:420px;
+justify-self:center;
+z-index:2;
+}
+
+
+
+
+
+.section-header::after{
+content:none;
+}
+
+
+
+
+
+.section-header::before{
+content:"#Gericht #Bar";
+position:absolute;
+left:-40px;
+top:50%;
+transform:rotate(-90deg);
+font-size:12px;
+letter-spacing:2px;
+color:#888;
+}
+
+
+
+.section-header p:nth-of-type(3){
+position:absolute;
+bottom:-48px;
+left:0;
+font-size:12px;
+letter-spacing:2px;
+color:#ccc;
+}
+
+
+.add {
+  position: relative;
+  right: 765px;
+  top: 25px;
+}
+
+
+
+
+.section-header p:last-of-type{
+position:absolute;
+bottom:-44px;
+right:48px;
+font-size:14px;
+color:var(--gold);
+letter-spacing:2px;
+}
+
+.eggs {
+position: relative;
+bottom: 250px;
+}
+
+.lorem {
+position: relative;
+right: 750px;
+top: 150px;
+  
+}
+
+
+
 
 
 
